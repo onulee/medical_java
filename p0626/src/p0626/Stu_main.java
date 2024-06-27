@@ -22,11 +22,11 @@ public class Stu_main {
 			int choice = sp.screen(list); //화면부분 메소드 호출
 			switch(choice) {
 			case 1: //학생입력부분
-				sp.stu_input(list);
+				sp.stu_input(list); //홍길동
 				break;
 			
 			case 2: //학생출력부분
-				sp.stu_print(list);
+				sp.stu_print(list); //유관순
 				break;
 				
 			case 3: //학생성적수정

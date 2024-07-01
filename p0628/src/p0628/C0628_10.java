@@ -16,7 +16,7 @@ public class C0628_10 {
 		
 		ArrayList<Card> list = new ArrayList();
 		
-		list.add(new Card(1,Kind.SPADE));
+		list.add(new Card(1,Kind.CLOVER));
 		list.add(new Card(1,Kind.DIAMOND));
 //		list.add(new Card(3,"Spade"));
 //		list.add(new Card(7,"spade"));

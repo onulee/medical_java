@@ -1,20 +1,15 @@
-package p0628;
+package p0701;
 
 public class Card {
-	
-	enum Kind{ SPADE,DIAMOND,HEART,CLOVER }
-	
+	private String password;
 	private int number;
-	private Kind kind;
-//	private String kind;
-	// SPADE,spade,Spade.....
+	private String kind;
 	
-	Card(){}
-	Card(int number,Kind kind){
+	public Card() {	}
+	public Card(int number, String kind) {
 		this.number = number;
 		this.kind = kind;
 	}
-	
 	
 	public int getNumber() {
 		return number;
@@ -22,15 +17,19 @@ public class Card {
 	public void setNumber(int number) {
 		this.number = number;
 	}
-	public Kind getKind() {
+	public String getKind() {
 		return kind;
 	}
-	public void setKind(Kind kind) {
+	public void setKind(String kind) {
 		this.kind = kind;
 	}
+	
 	@Override
 	public String toString() {
-		return String.format("%d,%s", number,kind);
+		return kind+","+number;
 	}
+	
+	
+	
 
 }

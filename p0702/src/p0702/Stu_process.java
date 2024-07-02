@@ -287,9 +287,6 @@ public class Stu_process {
 			});
 			break;	
 		}
-		
-		
-		
 	}
 	
 	// 8. 파일저장 메소드
@@ -311,7 +308,6 @@ public class Stu_process {
 		System.out.println("파일에 내용을 저장했습니다.!");
 		System.out.println();
 	}
-	
 	
 	
 	//---------------------------------

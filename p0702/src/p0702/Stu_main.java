@@ -16,7 +16,7 @@ public class Stu_main {
 		int kor=0,eng=0,math=0,total=0,rank=0;
 		double avg = 0;
 		
-		// abc파일 학생성적을 읽어서 출력하시오.
+		// 파일 읽어오기
 		FileReader fr = new FileReader("c:/save/abc.txt");
 		BufferedReader br = new BufferedReader(fr);
 		while(true) {
